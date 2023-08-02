@@ -20,16 +20,9 @@ public class ADDTest : MonoBehaviour
     }
 
     void XinHanCheng()
-    {   
+    {
+
     }
- 
- 
-       
-
-
-    
-
- 
     IEnumerator Delay()
     {
         yield return new WaitForSeconds(5f);
