@@ -9,7 +9,7 @@ public class ADDTest : MonoBehaviour
     private void Start()
     {
         gameObject.name = "Xinhancheng";
-        gameObject.name = "XiongXingguo";
+        gameObject.name = "";
 
     }
 
