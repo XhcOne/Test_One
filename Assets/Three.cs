@@ -6,7 +6,4 @@ using UnityEngine.UI;
 public class Three : MonoBehaviour
 {
     string str;
-
-
-
 }
