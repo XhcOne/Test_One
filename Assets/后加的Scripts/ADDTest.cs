@@ -8,15 +8,15 @@ public class ADDTest : MonoBehaviour
 
     private void Start()
     {
-        gameObject.name = "";
-        gameObject.name = "";
+        //gameObject.name = "";
+        //gameObject.name = "";
         gameObject.name = "demo";
 
     }
 
     void XinHanCheng()
     {
-
+        int a;
     }
 
     IEnumerator Delay()
