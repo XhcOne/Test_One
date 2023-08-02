@@ -8,25 +8,35 @@ public class ADDTest : MonoBehaviour
 
     private void Start()
     {
+ 
         //gameObject.name = "";
         //gameObject.name = "";
         gameObject.name = "demo";
+        gameObject.name = "";
+        gameObject.name = "";
 
+        gameObject.name = "123";
+        gameObject.name = "456";
     }
 
     void XinHanCheng()
-    {
-        int a;
+    {   
     }
+ 
+ 
+       
 
+
+    
+
+ 
     IEnumerator Delay()
     {
         yield return new WaitForSeconds(5f);
+        gameObject.name = "123";
+        gameObject.name = "456";
 
-        int a =2;
-        int b = 3;
-        int c = a + b;
-        Debug.Log(c);
+        Debug.Log(9);
 
     }
     IEnumerator Delay2()
@@ -34,8 +44,8 @@ public class ADDTest : MonoBehaviour
         yield return new WaitForSeconds(5f);
 
         int a = 2;
-        int b = 3;
-        int c = a + b;
+        
+        int c = a + 1;
         Debug.Log(c);
 
     }
