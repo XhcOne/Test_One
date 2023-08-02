@@ -28,5 +28,15 @@ public class ADDTest : MonoBehaviour
         Debug.Log(c);
 
     }
- 
+    IEnumerator Delay2()
+    {
+        yield return new WaitForSeconds(5f);
+
+        int a = 2;
+        int b = 3;
+        int c = a + b;
+        Debug.Log(c);
+
+    }
+
 }
